@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  padding: 50px;
+  background-image: url('images/img1.jpg'); /* Path to the image */
+  background-size: cover; /* Scales the image to cover the entire container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.email-list {
+  width: 50%;
+  padding: 10px;
+  background-image: url('images/img3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+  
+  .email-item {
+    padding: 10px;
+    margin: 5px 0;
+    border-bottom: 1px solid #ddd;
+    background-image: url('images/img2.jpg');
+    background-size: contain; /* Keeps the image within the bounds of the email item */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .email-item.unread {
+    background-color: #f9f9f9;
+  }
+  
+  .email-item.read {
+    background-color: #fff;
+  }
+  
